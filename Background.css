@@ -1,44 +1,46 @@
 body {
-    background-image: url("https://media1.tenor.com/images/c674098bbf5aae4f629d6ef360a002d9/tenor.gif?itemid=3405267");
+    background: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/8689103/simon_cowell_gif_youre_awesome_the_x_factor_happy_sigh.gif") fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
 }
 
-h1 {
-    color: white;
-    margin-left: 22px;
-}
+h1 { color: white; text-align: center; margin: 20px; }
+h2 { color: lightblue; text-align: center; }
 
-h2 {
-    color: lightblue;
-}
-
-/* Menu */
 #menu {
     list-style: none;
-    padding: 0;
-    margin: 20px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    display: inline-block;
 }
 
 #menu li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 0 15px;
 }
 
 #menu li a {
     font-weight: bold;
-    color: #fff;
-    background-color: #0099cc;
-    padding: 8px 16px;
+    color: white;
+    background: #0099cc;
+    padding: 12px 24px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
 #menu li a:hover {
-    background-color: #ff6600;
+    background: #ff6600;
 }
 
 hr {
     border: 1px solid rgba(255,255,255,0.3);
-    margin: 40px 0;
+    margin: 60px auto;
+    width: 80%;
 }
