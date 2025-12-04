@@ -11,7 +11,7 @@ Perfect as a learning project or just for laughs.
 
 <div align="center">
   <br>
-  <img src=".github/preview.png" alt="Meme Gallery Preview" width="800"/>
+  <img src="https://github.com/ethqnit/HTML-Memes-Collection/blob/main/Screenshot%202025-12-03%20222825.png?raw=true" alt="Meme Gallery Preview" width="800"/>
   <br><br>
   <i>Animated background + clean layout + 10 hand-picked classic memes</i>
 </div>
